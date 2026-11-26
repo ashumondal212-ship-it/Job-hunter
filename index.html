@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ashu Mondal | I run your restaurant’s brand and grow your sales</title>
+<meta name="description" content="Freelance brand manager for restaurants and QSR. I manage your brand and grow your sales. Experience with ITC, Zepto, Licious, Spencer’s and Rozana.">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Figtree:wght@400;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+  --bg:#FFFBF0;--ink:#16213E;--muted:#4C5670;--taxi:#F6B800;--taxi-ink:#16213E;--card:#FFFFFF;--line:#E7DDBF;--paper:#FFFFFF;--tram:#1F4FD8;
+  --d:'Bricolage Grotesque','Segoe UI',system-ui,sans-serif;--b:'Figtree','Segoe UI',system-ui,sans-serif;--m:'IBM Plex Mono',ui-monospace,Menlo,Consolas,monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0F1629;--ink:#F7F2E2;--muted:#B4BCD1;--card:#18213A;--line:#2B365A;--paper:#FBF6E6;--tram:#8FB0FF;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0F1629;--ink:#F7F2E2;--muted:#B4BCD1;--card:#18213A;--line:#2B365A;--paper:#FBF6E6;--tram:#8FB0FF;color-scheme:dark}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.6 var(--b);overflow-x:hidden;-webkit-text-size-adjust:100%}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--tram);outline-offset:3px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+h1,h2,h3{font-family:var(--d);line-height:1.08;margin:0;letter-spacing:-.02em}
+h1{font-size:clamp(2.3rem,8.5vw,4.4rem);font-weight:800}
+h2{font-size:clamp(1.7rem,5.5vw,2.6rem);font-weight:800;margin-bottom:12px}
+h3{font-size:1.2rem;font-weight:600}
+p{margin:0 0 12px;max-width:62ch}
+section{padding:64px 0}
+.lead{color:var(--muted);font-size:1.1rem}
+
+/* hero */
+.hero{padding:40px 0 56px;border-bottom:6px solid var(--taxi)}
+.hero .wrap{display:grid;gap:36px;align-items:center}
+@media(min-width:860px){.hero .wrap{grid-template-columns:1.15fr .85fr}.hero{padding:72px 0}}
+.tag{display:inline-block;background:var(--taxi);color:var(--taxi-ink);font-weight:600;font-size:.9rem;padding:6px 12px;border-radius:999px;margin-bottom:18px}
+.hero h1 span{background:linear-gradient(transparent 62%,var(--taxi) 62%);}
+.hero p{font-size:1.15rem;margin-top:18px}
+.cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:14px 22px;border-radius:12px;font-weight:600;text-decoration:none;font-size:1rem;border:2px solid var(--ink);transition:transform .15s}
+.btn:active{transform:scale(.97)}
+.btn.main{background:var(--taxi);color:var(--taxi-ink);border-color:var(--taxi)}
+.btn.wa{background:#1FA855;border-color:#1FA855;color:#fff}
+
+/* KOT slip: the one memorable moment */
+.slip{position:relative;background:var(--paper);color:#16213E;font:500 .92rem/1.7 var(--m);padding:22px 20px 30px;border-radius:6px 6px 0 0;box-shadow:0 18px 40px rgba(22,33,62,.18);max-width:370px;width:100%;margin:0 auto;transform:rotate(1.2deg);overflow:hidden;animation:print 2.4s steps(24,end) both}
+.slip::after{content:"";position:absolute;left:0;right:0;bottom:0;height:12px;background:linear-gradient(-45deg,transparent 8px,var(--bg) 0),linear-gradient(45deg,transparent 8px,var(--bg) 0);background-size:16px 16px}
+.slip b{font-family:var(--d);font-size:1.1rem;display:block;letter-spacing:0}
+.slip hr{border:0;border-top:2px dashed #9AA3BD;margin:10px 0}
+.slip .row{display:flex;gap:8px}
+.slip .row i{font-style:normal;color:#1FA855;font-weight:600}
+.slip .ln{opacity:0;animation:ln .01s forwards}
+.slip .ln:nth-of-type(1){animation-delay:.5s}.slip .ln:nth-of-type(2){animation-delay:.9s}.slip .ln:nth-of-type(3){animation-delay:1.3s}.slip .ln:nth-of-type(4){animation-delay:1.7s}.slip .ln:nth-of-type(5){animation-delay:2.1s}
+@keyframes print{from{max-height:0}to{max-height:520px}}
+@keyframes ln{to{opacity:1}}
+
+/* brand strip */
+.strip{background:var(--ink);color:var(--bg);overflow:hidden;padding:18px 0}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) .strip{background:var(--taxi);color:var(--taxi-ink)}}
+.track{display:flex;gap:44px;width:max-content;animation:slide 28s linear infinite;font:800 1.5rem var(--d);white-space:nowrap}
+.track span{opacity:.95}
+@keyframes slide{to{transform:translateX(-50%)}}
+
+/* stats: big, loud, one per row on phones */
+.growth{background:#16213E;color:#FFFBF0;padding:72px 0}
+.growth h2{color:#FFFBF0;font-size:clamp(2rem,8vw,3.2rem)}
+.growth .lead{color:#C9D0E6}
+.stats{display:grid;gap:0;margin-top:30px}
+@media(min-width:860px){.stats{grid-template-columns:repeat(2,1fr);column-gap:40px}}
+.stat{position:relative;padding:26px 0 30px;border-top:1px solid rgba(255,251,240,.18)}
+.stat strong{display:block;font:800 clamp(5rem,26vw,10rem)/.9 var(--d);color:#F6B800;letter-spacing:-.04em;font-variant-numeric:tabular-nums}
+.stat strong small{font-size:.55em;letter-spacing:0}
+.stat>span{display:block;margin-top:14px;color:#FFFBF0;font-size:1.15rem;line-height:1.4;max-width:30ch}
+.stat em{font-style:normal;font-weight:600;color:#F6B800}
+.stat::after{content:"";position:absolute;left:0;top:-3px;height:5px;width:0;background:#F6B800;transition:width 1.6s cubic-bezier(.2,.8,.2,1)}
+.growth .reveal.in .stat::after{width:100%}
+@media(min-width:860px){.stat.big{grid-column:1/-1}.stat.big strong{font-size:clamp(9rem,18vw,15rem)}}
+
+/* phone: sticky contact bar */
+.dock{display:none}
+@media(max-width:759px){
+  body{padding-bottom:84px;font-size:18px}
+  section{padding:52px 0}
+  .hero .cta .btn,.contact .cta .btn{flex:1 1 100%;justify-content:center;min-height:54px;font-size:1.05rem}
+  .dock{display:flex;gap:10px;position:fixed;left:0;right:0;bottom:0;z-index:50;padding:10px 14px calc(10px + env(safe-area-inset-bottom,0px));background:rgba(22,33,62,.96);backdrop-filter:blur(8px)}
+  .dock a{flex:1;display:flex;align-items:center;justify-content:center;min-height:52px;border-radius:12px;font-weight:600;text-decoration:none;font-size:1.05rem}
+  .dock .w{background:#1FA855;color:#fff}.dock .c{background:#F6B800;color:#16213E}
+  .track{font-size:1.25rem}
+}
+
+/* offer */
+.offer{display:grid;gap:14px;margin-top:26px}
+@media(min-width:760px){.offer{grid-template-columns:1fr 1fr}}
+.card{background:var(--card);border-left:6px solid var(--taxi);border-radius:12px;padding:20px 20px 12px}
+.card p{color:var(--muted);font-size:1rem}
+
+/* track record */
+.tl{margin-top:26px;border-left:3px solid var(--taxi);padding-left:22px;display:grid;gap:26px}
+.tl article{position:relative}
+.tl article::before{content:"";position:absolute;left:-30px;top:8px;width:13px;height:13px;border-radius:50%;background:var(--bg);border:3px solid var(--ink)}
+.tl time{font-size:.88rem;color:var(--muted);font-weight:600}
+.tl h3 small{font:400 1rem var(--b);color:var(--muted)}
+.tl p{margin:6px 0 0;color:var(--muted)}
+.tl p b{color:var(--ink)}
+
+/* steps */
+.steps{counter-reset:s;display:grid;gap:14px;margin-top:24px;padding:0;list-style:none}
+@media(min-width:760px){.steps{grid-template-columns:repeat(3,1fr)}}
+.steps li{counter-increment:s;background:var(--card);border:2px solid var(--line);border-radius:16px;padding:20px}
+.steps li::before{content:counter(s);display:grid;place-items:center;width:34px;height:34px;border-radius:50%;background:var(--taxi);color:var(--taxi-ink);font:800 1rem var(--d);margin-bottom:10px}
+.steps p{color:var(--muted);margin:6px 0 0}
+
+/* contact */
+.contact{background:var(--taxi);color:var(--taxi-ink);border-radius:24px;padding:36px 24px;text-align:center}
+.contact h2{color:var(--taxi-ink)}
+.contact p{margin:0 auto 20px;color:#2A3350}
+.contact .cta{justify-content:center}
+.contact .btn{border-color:var(--taxi-ink);color:var(--taxi-ink);background:transparent}
+.contact .btn.wa{background:#16213E;color:#fff}
+footer{padding:26px 0 40px;color:var(--muted);font-size:.85rem;text-align:center}
+footer p{margin:6px auto}
+
+.reveal{opacity:0;transform:translateY(16px);transition:opacity .6s,transform .6s}
+.reveal.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){
+  *{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+  .slip{max-height:none}.slip .ln,.reveal{opacity:1;transform:none}
+}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <div>
+      <span class="tag">Freelance Brand Manager for restaurants & QSR</span>
+      <h1>Be the restaurant everyone talks about <span>and orders from.</span></h1>
+      <p>I’m Ashu Mondal, a freelance brand manager for restaurants and QSR. I’ve worked on food brands including ITC, Zepto, Licious and Rozana. I take charge of your brand and growth, from marketing and new menu items to repeat customers, so you can focus on the food.</p>
+      <div class="cta">
+        <a class="btn wa" href="https://wa.me/917042978113?text=Hi%20Ashu%2C%20I%20saw%20your%20portfolio.%20I%20want%20to%20grow%20my%20restaurant." target="_blank" rel="noopener">Chat on WhatsApp</a>
+        <a class="btn" href="tel:+917042978113">Call +91 70429 78113</a>
+      </div>
+    </div>
+    <div class="slip" aria-label="What I deliver for your restaurant">
+      <b>GROWTH ORDER · YOUR RESTAURANT</b>
+      Managed by Ashu Mondal
+      <hr>
+      <div class="ln row"><i>✔</i> More people finding you</div>
+      <div class="ln row"><i>✔</i> More orders every week</div>
+      <div class="ln row"><i>✔</i> New items that sell</div>
+      <div class="ln row"><i>✔</i> Customers who come back</div>
+      <div class="ln"><hr><b>Status: ready to grow</b></div>
+    </div>
+  </div>
+</header>
+
+<div class="strip" aria-label="Brands I have worked with">
+  <div class="track">
+    <span>ITC Foods</span><span>Zepto</span><span>Licious</span><span>Spencer’s Retail</span><span>Rozana · SAMUH</span><span>Jivamrit Organic</span>
+    <span>ITC Foods</span><span>Zepto</span><span>Licious</span><span>Spencer’s Retail</span><span>Rozana · SAMUH</span><span>Jivamrit Organic</span>
+  </div>
+</div>
+
+<main>
+<section class="growth">
+  <div class="wrap reveal">
+    <h2>Growth I’ve already delivered</h2>
+    <p class="lead">These are results from big food brands. I bring the same approach to your restaurant, at your size.</p>
+    <div class="stats">
+      <div class="stat big"><strong><span data-n="15">15</span><small>%</small></strong><span>Brand sales growth from a new product I launched with <em>ITC</em></span></div>
+      <div class="stat"><strong><span data-n="40">40</span><small>%</small></strong><span>Fewer customer complaints at <em>Licious</em>, so customers stayed happy</span></div>
+      <div class="stat"><strong><span data-n="60">60</span><small>+</small></strong><span>Outlets I kept running as one consistent brand, across 5 states at <em>ITC</em></span></div>
+      <div class="stat"><strong><span data-n="6">6</span><small>+</small></strong><span>Plants producing <em>SAMUH</em>, Rozana’s private label brand that I help build</span></div>
+      <div class="stat"><strong><span data-n="4">4</span><small>+</small></strong><span>Years growing food brands in FMCG, quick commerce, retail and restaurants</span></div>
+    </div>
+  </div>
+</section>
+
+<section style="background:var(--card)">
+  <div class="wrap reveal">
+    <h2>What I take off your plate</h2>
+    <p class="lead">You focus on the food. I handle the brand and the growth.</p>
+    <div class="offer">
+      <div class="card"><h3>Your brand look and voice</h3><p>Name, logo use, menu design, packaging and signboard. One clear identity people recognise in your area.</p></div>
+      <div class="card"><h3>Social media and content</h3><p>Instagram, Facebook and WhatsApp posts, reels and offers that get people talking about you and walking in.</p></div>
+      <div class="card"><h3>Zomato, Swiggy and Google Maps</h3><p>Better listings, photos and reviews so you show up first when people search for food nearby.</p></div>
+      <div class="card"><h3>New items, combos and offers</h3><p>Launches planned like I did at ITC: the right item, the right price, the right push.</p></div>
+      <div class="card"><h3>Repeat customers</h3><p>Reviews, feedback and loyalty ideas that turn first-time visitors into regulars.</p></div>
+      <div class="card"><h3>Monthly sales review</h3><p>We look at what sold, what didn’t and what to do next month. Simple numbers, no jargon.</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap reveal">
+    <h2>Brands I’ve helped grow</h2>
+    <div class="tl">
+      <article><h3>ITC</h3><p>Led a new product launch and built the process behind it. <b>Brand sales grew 15%.</b> Kept a 60+ outlet kitchen network running as one brand.</p></article>
+      <article><h3>Rozana · SAMUH</h3><p>Helping build SAMUH, Rozana’s own private label brand, from the ground up. I look after how it’s made, planned and delivered across <b>6+ plants</b>.</p></article>
+      <article><h3>Licious</h3><p>Found why customers were unhappy and fixed it. <b>Complaints dropped 40%.</b></p></article>
+      <article><h3>Zepto</h3><p>Helped a fast-delivery brand keep its promise to customers, with fewer spoiled orders and fewer complaints.</p></article>
+      <article><h3>Spencer’s Retail</h3><p>Worked with suppliers, warehouses and stores across a retail chain so customers got the same quality everywhere.</p></article>
+    </div>
+  </div>
+</section>
+
+<section style="background:var(--card)">
+  <div class="wrap reveal">
+    <h2>How we work together</h2>
+    <ol class="steps">
+      <li><h3>We meet</h3><p>A short chat and a visit to your outlet. I taste the food, see the place and learn your goals.</p></li>
+      <li><h3>I take over your brand</h3><p>I plan the month: content, offers, listings and launches. I run it, you approve it.</p></li>
+      <li><h3>We grow, month by month</h3><p>Every month we review sales together and decide the next push.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section>
+  <div class="wrap reveal">
+    <div class="contact">
+      <h2>Let’s grow your restaurant</h2>
+      <p>Message me and I’ll reply personally. No pressure, just a conversation.</p>
+      <div class="cta">
+        <a class="btn wa" href="https://wa.me/917042978113?text=Hi%20Ashu%2C%20I%20saw%20your%20portfolio.%20I%20want%20to%20grow%20my%20restaurant." target="_blank" rel="noopener">WhatsApp me</a>
+        <a class="btn" href="tel:+917042978113">Call now</a>
+        <a class="btn" href="mailto:ashumondal212@gmail.com?subject=Grow%20my%20restaurant%20brand">Email me</a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<nav class="dock" aria-label="Contact">
+  <a class="w" href="https://wa.me/917042978113?text=Hi%20Ashu%2C%20I%20saw%20your%20portfolio.%20I%20want%20to%20grow%20my%20restaurant." target="_blank" rel="noopener">WhatsApp</a>
+  <a class="c" href="tel:+917042978113">Call now</a>
+</nav>
+
+<footer>
+  <p>Ashu Mondal · ashumondal212@gmail.com · +91 70429 78113 · linkedin.com/in/ashu-mondal212</p>
+  <p>Brand names show food brands I have worked with. No endorsement by those companies is implied.</p>
+</footer>
+
+<script>
+(function(){
+  var els=document.querySelectorAll('.reveal');
+  var reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function count(box){
+    box.querySelectorAll('[data-n]').forEach(function(s){
+      var t=+s.dataset.n,st=null;
+      if(reduce||!t){s.textContent=t;return}
+      function f(ts){st=st||ts;var p=Math.min((ts-st)/1400,1);s.textContent=Math.round(t*(1-Math.pow(1-p,3)));if(p<1)requestAnimationFrame(f)}
+      requestAnimationFrame(f);
+    });
+  }
+  if(!('IntersectionObserver' in window)||reduce){els.forEach(function(e){e.classList.add('in')});return}
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');count(e.target);io.unobserve(e.target)}})},{threshold:.15});
+  els.forEach(function(e){io.observe(e)});
+})();
+</script>
+</body>
+</html>
